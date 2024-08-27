@@ -1,4 +1,4 @@
-zone "app.tunlyinaung.aws" IN {
+zone "tunlyinaung.aws" IN {
     type forward;
     forwarders {
         172.31.1.110;
