@@ -1,0 +1,5 @@
+zone "tunlyinaung.onprem" IN {
+        type master;
+        file "/etc/bind/tunlyinaung.onprem.lan";
+        allow-update { none; };
+};

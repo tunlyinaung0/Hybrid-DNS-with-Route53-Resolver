@@ -1,0 +1,7 @@
+zone "app.tunlyinaung.aws" IN {
+    type forward;
+    forwarders {
+        172.31.1.110;
+        172.31.2.110;
+    };
+};

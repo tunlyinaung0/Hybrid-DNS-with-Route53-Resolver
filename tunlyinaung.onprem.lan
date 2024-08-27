@@ -1,0 +1,16 @@
+$TTL 86400
+@   IN  SOA     dns.tunlyinaung.onprem. root.tunlyinaung.onprem. (
+        
+        2022042601  ;Serial
+        3600        ;Refresh
+        1800        ;Retry
+        604800      ;Expire
+        86400       ;Minimum TTL
+)
+
+        IN  NS      dns.tunlyinaung.onprem.
+        IN  A       10.0.1.100
+        IN  MX 10   dns.tunlyinaung.onprem.
+
+dns     IN  A       10.0.1.100
+app     IN  A       10.0.2.130
