@@ -10,10 +10,6 @@ resource "aws_route53_zone" "private_hosted_zone" {
     }
 }
 
-resource "aws_route53_zone_association" "hosted_zone_association" {
-    zone_id = aws_route53_zone.private_hosted_zone.zone_id
-    vpc_id  = var.cloud_vpc.id
-}
 
 resource "aws_route53_record" "app" {
     zone_id = aws_route53_zone.private_hosted_zone.zone_id
