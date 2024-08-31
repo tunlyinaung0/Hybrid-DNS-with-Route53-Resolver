@@ -110,6 +110,8 @@ module "ec2" {
     private_key_path = var.private_key_path
 
     onprem_dhcp_options = aws_vpc_dhcp_options.onprem_dhcp_options
+    onprem_vpc_cidr = var.onprem_vpc_cidr
+    cloud_vpc_cidr = var.cloud_vpc_cidr
 }
 
 module "hosted_zone" {

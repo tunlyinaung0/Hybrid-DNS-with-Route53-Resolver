@@ -17,3 +17,6 @@ variable "cloud_default_sg"  {}
 variable "cloud_public_subnet_1" {}
 
 variable "onprem_dhcp_options" {}
+
+variable "onprem_vpc_cidr" {}
+variable "cloud_vpc_cidr" {}

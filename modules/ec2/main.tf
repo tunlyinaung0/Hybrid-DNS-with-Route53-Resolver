@@ -49,6 +49,7 @@ resource "aws_instance" "onprem_dns" {
             "sudo mv /tmp/tunlyinaung.onprem.lan /etc/bind/tunlyinaung.onprem.lan",
             "sudo mv /tmp/named.conf.local /etc/bind/named.conf.local",
             "sudo sed -i 's/dnssec-validation auto;/dnssec-validation no;/g' /etc/bind/named.conf.options",
+            "sudo sed -i \"/^options {/a\\    allow-query { ${var.onprem_vpc_cidr}; ${var.cloud_vpc_cidr}; };\" /etc/bind/named.conf.options",
             "sudo systemctl restart named",
             "sudo systemctl reboot"
         ]
