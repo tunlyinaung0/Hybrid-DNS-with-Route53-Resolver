@@ -4,4 +4,4 @@
 
 #### Since it's for lab project, I exclude terraform.tfvars from .gitignore file.
 
-![DNS](https://github.com/user-attachments/assets/40f8f965-af77-472f-8196-517011a5d386)
+![hybrid-dns](https://github.com/user-attachments/assets/1d24b6f7-72a2-4c14-85e5-40772e9b2b1c)
