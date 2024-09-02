@@ -4,9 +4,6 @@
 
 #### Since it's for lab project, I exclude terraform.tfvars from .gitignore file.
 
-![hybrid-dns](https://github.com/user-attachments/assets/831f67b8-04d2-4022-82b9-0f6ae73689c6)
-
-
 ## Lab Goal
 
 OnPrem App Server and Cloud App Server must be resolved using DNS. 
@@ -20,5 +17,5 @@ OnPrem App Server and Cloud App Server must be resolved using DNS.
   ping app.tunlyinaung.onprem
 ```
 
-
+![hybrid-dns](https://github.com/user-attachments/assets/831f67b8-04d2-4022-82b9-0f6ae73689c6)
 
