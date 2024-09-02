@@ -1,8 +1,8 @@
 # Hybrid-DNS-with-Route53-Resolver
 
-## Note: It does not follow the law of idempotence entirely since I use provisioners in this scenario. 
+#### Note: It does not follow the law of idempotence entirely since I use provisioners in this scenario. 
 
-#### Since it's for lab project, I exclude terraform.tfvars from .gitignore file.
+#### Note: Since it's for lab project, I exclude terraform.tfvars from .gitignore file.
 
 ## Lab Goal
 
