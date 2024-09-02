@@ -68,10 +68,6 @@ resource "aws_route53_resolver_rule" "forward_rule" {
     resolver_endpoint_id = aws_route53_resolver_endpoint.outbound_endpoint.id
 
     target_ip {
-        ip = "${var.onprem_app_server_private_ip}"
-    }
-
-    target_ip {
         ip = "${var.onprem_dns_server_private_ip}"
     }
 
